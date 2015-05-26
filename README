@@ -18,7 +18,7 @@ Gadgets:
         Views:
         'myisam' - myisam specific stats, including key buffer, lock waits
         'commands' - Counts all 'Com_*' and outputs all commands run during
-            each interval sorted descending by number of occurances.  This
+            each interval sorted descending by number of occurences.  This
             should be a good indication if something is running that you are
             not aware of.
         'coms' - Tabluar view of groups of common server commands.  Not as 
@@ -44,6 +44,7 @@ Gadgets:
         'innodb_log' -- all transaction log related status.  'Innodb_log*' and
             'Innodb_os_log*'.
         'innodb_row' -- 'Innodb_row_lock*'.
+        'wsrep' -- Galera replication events.
 
 
 - myq_innodb_status:  
